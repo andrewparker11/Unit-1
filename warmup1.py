@@ -3,5 +3,7 @@
 #km2mile - Kilometers to Miles Conversion
 
 
-Km = int(input('How many kilometers? '))
-print(Km, 'Kilometers is', Km*0.621371, 'miles')
+base = float(input('What is the length of the base? '))
+height = float(input('What is the length of the height? '))
+
+print('The area of the triangle is', base*height/2)
