@@ -1,6 +1,6 @@
 #Andrew Parker
 #8/31/17
-#inputDemo.py - how to get user input
+#nameAge.py - calculates your name bubba 
 
 fname = input('What is your first name? ')
 lname = input('What is your last name? ')
