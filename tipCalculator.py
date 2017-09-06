@@ -2,7 +2,7 @@
 #9/1/17
 #tipCalculator.py - Displays a face
 
-Cost = int(input('Price of Meal in dollars' )
-Percent = int(input('% to tip')
+Cost = int(input('Price of Meal in dollars? ' ))
+Percent = int(input('% to tip? '))
 
-print(Cost*Percent)
+print(Cost*Percent/100)
