@@ -7,6 +7,4 @@ y1 = float(input('What is your y1 value? '))
 x2 = float(input('What is your x2 value? '))
 y2 = float(input('What is your y2 value? '))
 
-print(fname ,'has', len(fname), 'letters')
-print(lname ,'has', len(lname), 'letters')
-print('Next year you will be', age+1, 'years old')
+print('The slope is', (y1-y2)/(x1-x2))
