@@ -4,8 +4,9 @@
 
 from random import randint
 
-num1 = randint(1,10)
-num2 = randint(1,10)
+name = input('What is your name?' )
 
-answer = int(input(str(num1)+ '+' + str(num2)+'? '))
-print(answer == num1 + num2)
+num1 = randint(13,13)
+
+print(name,'Your lucky number is', num1)
+
