@@ -1,3 +1,9 @@
 #Andrew Parker
 #9/7/17
-#slope.py - Calculates the slope of a line given two points
+#stringAnalysis.py - Gives word and character statistics of a given sentence
+
+sentence = input('Enter A Sentence')
+words = sentence.count(' ')
+
+
+print('Your sentence has', len(sentence), 'characters and', words, 'words')
