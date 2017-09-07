@@ -6,7 +6,7 @@ from random import randint
 
 name = input('What is your name?' )
 
-num1 = randint(13,13)
+num1 = randint(-2147483648,2147483648)
 
 print(name,'Your lucky number is', num1)
 
