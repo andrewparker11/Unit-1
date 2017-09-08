@@ -3,6 +3,7 @@
 #change.py - Tells how many coins you need to make up a given change
 
 cents = int(input('How many cents? '))
-Quarters = int(input('How many cartons? '))
+quarters = (cents//25)
+dimes = ((cents-(quarters*25))//10)
 
-print(neggs < (ncartons*12))
+print('You have', quarters, 'quarters and', dimes, 'dimes')
