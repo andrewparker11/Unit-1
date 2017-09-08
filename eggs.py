@@ -2,6 +2,8 @@
 #9/8/17
 #eggs.py - Tells if # eggs will fit in # cartons
 
+neggs = int(input('How many eggsys?' )
+    
 x1 = float(input('What is your x1 value? '))
 y1 = float(input('What is your y1 value? '))
 x2 = float(input('What is your x2 value? '))
