@@ -1,5 +1,5 @@
 #Andrew Parker
-#8/31/17
+#9/7/17
 #slope.py - Calculates the slope of a line given two points
 
 x1 = float(input('What is your x1 value? '))
